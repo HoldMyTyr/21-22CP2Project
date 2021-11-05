@@ -1,4 +1,4 @@
-# Programming 2 Group Project: The Isle of Laeso
+# Programming 2 C++ Project: TBD
 
 ![TheIsleOfLaeso](https://github.com/Bamboo72/Programming2GroupProject1/blob/main/res/BackgroundBoard.png)
 

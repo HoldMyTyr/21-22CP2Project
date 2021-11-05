@@ -1,6 +1,6 @@
 # Programming 2 C++ Project: TBD
 
-![TheIsleOfLaeso](https://github.com/Bamboo72/Programming2GroupProject1/blob/main/res/BackgroundBoard.png)
+![TheIsleOfLaeso](https://cdn.funnyisms.com/d3540090-1765-4633-99ff-1bb3ba7e40ec.gif)
 
 
 ## Gameplay Instructions:

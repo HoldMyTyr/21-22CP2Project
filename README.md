@@ -1,8 +1,8 @@
 # Programming 2 Java Project: Royal Game of Ur
 
-![ClassD](https://github.com/HoldMyTyr/2020CP2Project/blob/main/art/Designing%20Classes_%20Individual%20Project.jpg)
+![ClassD](https://github.com/HoldMyTyr/21-22CP2Project/blob/main/art/Designing%20Classes_%20Individual%20Project.jpg)
 
-![Con](https://github.com/HoldMyTyr/2020CP2Project/blob/main/art/Ur.jpg)
+![Con](https://github.com/HoldMyTyr/21-22CP2Project/blob/main/art/Ur.jpg)
 
 ## Gameplay Instructions:
 

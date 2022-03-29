@@ -1,44 +1,27 @@
 import javax.swing.*;  
-import java.awt.*;  
+import java.awt.*; 
+import java.awt.event.*;
+import java.util.*;
 import java.io.*;    
 
-public class Graphics {
+public class Graphics extends JFrame {
+  
+  int displayState;
+  JFrame frame = new JFrame();
+  JPanel activePanel;
+  JTextField activeTextField;
 
+  String boardText = "Welcome to the Royal Game Of Ur!";
+
+  //Constructor for the graphics class, sets the JFrame attributes
   public Graphics(){
-
+    this.displayState = 0;
+    this.setBounds(10, 10, 1294, 764);
+    this.setResizable(false);
+    setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    this.setVisible(true);
   }
   
-    public static void createAndShowGUI() {
-	  Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
-        //Create and set up the window.
-        JFrame frame = new JFrame("HelloWorldSwing");
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-	  int screenHeight = screenSize.height - 100;
-	  int screenWidth = screenSize.width - 100;
-
-	  //sets hight and width of the frame and makes it visible
-	  frame.setPreferredSize(new Dimension(screenWidth , screenHeight));
-	  frame.pack();
-	  frame.setLocationRelativeTo(null);
-	  frame.setVisible(true);
-
-        JPanel panel = new JPanel();
-	  panel.setBackground(Color.CYAN);
-	  ImageIcon icon = new ImageIcon(".//res//ArmorHat.png");
-	  JLabel label = new JLabel();
-	  label.setIcon(icon);
-	  panel.add(label);
-       
-	  //ImageIcon img = new ImageIcon(".//res//ArmorHat.png");
-        //JLabel leb = new JLabel(img);
-        //JPanel titlePanel = new JPanel();
-        //titlePanel.add(leb);
-
-
-        //Display the window.
-        frame.pack();
-        frame.setVisible(true);
-	  panel.setVisible(true);
-    }
+  public void sceneDispay(int displayNum){}
 }

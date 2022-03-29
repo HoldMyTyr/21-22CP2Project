@@ -16,10 +16,6 @@ public class RoyalGameOfUr{
   public static Graphics graph = new Graphics();
   
   public static void main(String[] args) {
-    startPos();
-    //printBoard();
-    System.out.println(turn());
-    System.out.println(die[0] + " : " + die[1] + " : " + die[2] + " : " + die[3]);
     javax.swing.SwingUtilities.invokeLater(new Runnable() {
             public void run() {
                 graph.createAndShowGUI();
@@ -62,5 +58,6 @@ public class RoyalGameOfUr{
         }
       }
     }
+    System.out.println(turn() + "\n" + die[0] + " : " + die[1] + " : " + die[2] + " : " + die[3]);
   }
 }

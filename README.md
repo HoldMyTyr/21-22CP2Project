@@ -20,6 +20,10 @@ Download the zip file. Extract the contents, and run the main file.
 
 ## Year 2 Concepts: 
 - Enhanced For Loop
+- GUI controls (Java swing has Inheritance or Packages)
+- Overloading 
+- Multidimensional Arrays
+- I/O and Exception Handling (Java swing also has I with jpg/png)
 
 ## Documentation: 
 

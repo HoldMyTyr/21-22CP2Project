@@ -1,5 +1,8 @@
 import java.util.*;
 import javax.swing.*;  
+import java.awt.*;
+import java.awt.event.*;
+import java.io.*;
 
 public class RoyalGameOfUr{
   /**
@@ -13,14 +16,11 @@ public class RoyalGameOfUr{
   public static Player p2 = new Player();
   public static int[] die = new int[4];
   public static Dice dice = new Dice();
-  public static Graphics graph = new Graphics();
+  public static Graphics g = new Graphics();
   
-  public static void main(String[] args) {
-    javax.swing.SwingUtilities.invokeLater(new Runnable() {
-            public void run() {
-                graph.createAndShowGUI();
-            }
-        });
+  public static void main(String[] args) throws FileNotFoundException {
+    g.sceneDispay();
+    g.refresh();
   } 
   
   public static int turn(){
